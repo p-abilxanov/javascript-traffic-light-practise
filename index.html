@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Light</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="main">
+            <div class="light">
+                <div class="light__header">
+                    <div class="light__color" data-number=""></div>
+                    <div class="light__color" data-number=""></div>
+                    <div class="light__color" data-number=""></div>
+                </div>
+                <div class="light__footer"></div>
+            </div>
+            <div class="info">
+                <div class="time-color">
+                    <label for="number-red">Time red:</label>
+                    <input type="number" name="number-red" id="number-red" required>
+                </div>
+
+                <div class="time-color">
+                    <label for="number-yellow">Time yellow:</label>
+                    <input type="number" name="number-yellow" id="number-yellow" required>
+                </div>
+
+                <div class="time-color">
+                    <label for="number-green">Time green:</label>
+                    <input type="number" name="number-green" id="number-green" required>
+                </div>
+
+                <button class="light-start">Start</button>
+                <button class="light-stop">Stop</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
